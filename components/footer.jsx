@@ -12,9 +12,9 @@ const Footer = () => {
         <a href="https://twitter.com/Emmy_uzoezie"><TwitterIcon className="cursor-pointer lg:text-4xl"/></a>
         <a href="https://www.linkedin.com/in/emmanuel-j-uzoezie-a40608176" ><LinkedInIcon className="cursor-pointer lg:text-4xl"/></a>
     </div>
-    <div className="flex justify-center items-center  pb-2">
+    <div className="flex justify-center items-center mt-4 pb-2 md:pb-4 md:text-2xl">
       <h3 >created by Emmanuel uzoezie </h3>
-      <div className="rounded-full border dark:border-white border-black mx-1"><p  className="mx-[5px]">c</p></div> 
+      <div className="rounded-full border flex items-center justify-center w-[20px] h-[20px] md:w-[30px] md:h-[30px]  dark:border-white border-black mx-2"><p  className="">c</p></div> 
       <h3>2022 Jonuel dev</h3>
     </div>
     </div>

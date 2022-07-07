@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import About from '../components/about'
 import Footer from '../components/footer'
+import Form from '../components/form'
 import Main from '../components/main'
 import Menu from '../components/menu'
 import Skill from '../components/skills'
@@ -19,7 +20,7 @@ export default function Home() {
       <Main />
       <About />
       <Skill />
-      
+      <Form />
       <Footer />
       <Whatsapp />
       
