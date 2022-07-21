@@ -9,7 +9,15 @@ const Form = () => {
   function handleSubmit (e) {
     e.preventDefault()
 
-      
+    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID,process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current,process.env.REACT_APP_EMAILJS_PUBLIC_KEY)
+    .then(function(response) {
+      setMessage("successfully sent")
+      return setTimeout(() => {
+        setMessage("")
+      }, 3000)
+      }, function(err) {
+      console.log('FAILED...', err);
+    });
   }
 
 
@@ -28,7 +36,7 @@ const Form = () => {
             <Button variant="contained" className='mt-4 font-bold text-xl py-2 shadow-xl dark:bg-gray-600 bg-blue-700' type="submit" value="Send">
                 submit
             </Button>
-            <p className='text-2xl bg-green-600 text-center'>{message}</p>
+            <p className='text-2xl bg-green-500 animate-bounce mt-4 text-center'>{message}</p>
         </form>
     </div> 
   )
