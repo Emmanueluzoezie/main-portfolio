@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Menu from "../components/Menu"
+import Menu from "../components/menu"
 import Footer from "../components/footer"
 import Project from "../components/project"
 import WhatsAppIcon from '@mui/icons-material/WhatsApp'
