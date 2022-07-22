@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className="dark:bg-gray-800 bg-gray-100 relative" >
       <Head>
-        <title>Jonuel Projects </title>
+        <title>Emmanuel Uzoezie Projects </title>
         <meta name="description" content="Jonuel portfolio About" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
