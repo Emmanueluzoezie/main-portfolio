@@ -25,7 +25,7 @@ const Form = () => {
 
 
   return (
-    <div className='flex flex-col justify-center items-center mb-10'>
+    <div className='flex flex-col justify-center items-center mb-20 md:mb-10'>
         <h1 className='dark:text-white text-2xl font-bold capitalize'>send your email</h1>
         <form className='flex flex-col w-full max-w-3xl px-8 md:px-none' onSubmit={handleSubmit} ref={form}>
             <label htmlFor="name" className='mt-4 dark:text-white font-bold pl-2 text-xl'>Name</label>
