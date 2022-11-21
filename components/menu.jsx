@@ -99,7 +99,7 @@ const Menu = () => {
                       Projects
                     </a>
                    </Link>
-                   <Link href="/about" passHref>
+                   <Link href="/abouts" passHref>
                    <a className="text-black hover:bg-gray-200 hover:text-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                     >
                       About
