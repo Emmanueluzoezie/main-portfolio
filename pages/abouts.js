@@ -7,7 +7,7 @@ import Whatsapp from '../components/whatsapp'
 
 const Abouts = () => {
   return (
-    <div className="dark:bg-gray-800 bg-gray-100 text-white md:h-screen w-screen relative" >
+    <div className="dark:bg-gray-800 bg-gray-100 text-white w-screen relative" >
       <Head>
         <title>About Emmanuel Uzoezie</title>
         <meta name="description" content="Jonuel portfolio About" />
@@ -16,6 +16,7 @@ const Abouts = () => {
       <Menu />
       <About />
       <Skill />
+      
       <div className='md:absolute md:bottom-3'>
       <Footer />
       </div>

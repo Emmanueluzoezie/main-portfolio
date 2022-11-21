@@ -1,3 +1,4 @@
+
 export default function About() {
 
     return (
@@ -12,6 +13,9 @@ export default function About() {
                         Hobbies
                     </h1>
                     <p className="text-lg mb-4"><span className="text-xl font-semibold mr-1">I</span>love coding, watching football and exercise with alot of passion about technolgy.</p>
+                    <h1 className="text-center text-2xl font-bold font-mono">
+                        Resume
+                    </h1>
                 </div>
             </section>
         </div>
